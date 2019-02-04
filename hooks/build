@@ -1,0 +1,6 @@
+#!/bin/bash
+for D in *; do
+  if [ -d "${D}" ]; then
+      docker build -f "${D}/Dockerfile" -t "$DOCKER_REPO:$CACHE_TAG-${D}" .
+  fi
+done

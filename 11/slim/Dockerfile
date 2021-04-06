@@ -1,4 +1,4 @@
-FROM openjdk:11.0.5-slim
+FROM openjdk:11.0.10-slim
 WORKDIR /
 
 RUN apt-get update \

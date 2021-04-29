@@ -15,7 +15,9 @@ WORKDIR /
 
 RUN apt-get update \
  && apt-get install -y \
-    dumb-init
+    dumb-init \
+    fontconfig \
+    libfreetype6
 
 LABEL vendor="Wandera, Ltd."
 

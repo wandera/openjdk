@@ -11,6 +11,7 @@ Set of dockerfiles for building docker images used in Wandera as base images for
 There is a directory for each major version of OpenJDK we want to use.
 * `11`
 * `15`
+* `17`
 
 For each major version there are directories for different image types with specific `Dockerfile`
 

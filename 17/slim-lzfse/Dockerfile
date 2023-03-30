@@ -10,7 +10,7 @@ RUN mkdir /lzfse \
 RUN cd /lzfse \
     && make install
 
-FROM openjdk:17-slim
+FROM openjdk:17.0.2-slim
 WORKDIR /
 
 RUN apt-get update \

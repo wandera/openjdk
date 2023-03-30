@@ -10,7 +10,7 @@ RUN mkdir /lzfse \
 RUN cd /lzfse \
     && make install
 
-FROM openjdk:11.0.10-slim
+FROM openjdk:11.0.16-slim
 WORKDIR /
 
 RUN apt-get update \

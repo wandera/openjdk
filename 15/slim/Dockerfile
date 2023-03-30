@@ -1,4 +1,4 @@
-FROM openjdk:15.0.1-slim
+FROM openjdk:15.0.2-slim
 WORKDIR /
 
 RUN apt-get update \
